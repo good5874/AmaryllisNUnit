@@ -102,13 +102,13 @@ namespace UIBookingTests.PageObjects
         private void SetGuests()
         {
             driver.FindElement(guestsButton).Click();
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
             driver.FindElement(addBabyButton).Click();
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
             driver.FindElement(yearsButton).Click();
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
             driver.FindElement(years4Button).Click();
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
         }
     }
 }
